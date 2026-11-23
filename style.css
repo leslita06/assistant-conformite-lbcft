@@ -1,5 +1,6 @@
 :root{--ink:#0F1B2D;--mute:#5B6676;--line:#E3E7ED;--soft:#F5F7FA;--acc:#0B6E4F;--acc2:#E7F3EE;--navy:#13294B}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
+section[id]{scroll-margin-top:64px}
 body{margin:0;background:#fff;color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:var(--acc)}
 .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
@@ -70,7 +71,7 @@ h2{font-size:32px;letter-spacing:-.01em;margin:0 0 6px;text-align:center}
   .app{grid-template-columns:1fr;height:auto}
   .chips{flex-direction:row;overflow-x:auto;border-right:0;border-bottom:1px solid var(--line);padding:10px}
   .chips button{flex:0 0 72%;}
-  .log{height:430px}.msg{max-width:94%}
+  .log{height:440px;flex:none}.msg{max-width:94%}
   .refs a span{float:none;display:block;margin:2px 0 0}
   .ask .btn{padding:11px 14px}
 }
